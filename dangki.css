@@ -1,0 +1,247 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    position: relative;
+    } 
+    ul,li,h1,h2,h3,h4,h5,h6 ,p{
+    margin: 0;
+    }
+    html{
+    height: 100vh;
+    width: 100vw;
+    background-color: #FFFFFF    }
+
+/* nav */
+.nav{
+    width: 100%;
+    height: 45px;
+    background-color:#DC1D14 ;
+    position: fixed;
+    top:0;
+   
+    }
+    
+     @media only screen and (max-width:700px) {
+   
+     .tk_ip{
+     width: 40px;
+     }
+     }
+     
+
+    .nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+    .nav ul li{
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    color: #FCFCFC;
+    }
+    
+    
+    .tk {
+    display: flex;
+    }
+    .tk_ip{
+    padding: 5px;
+    border-radius: 10px;
+    
+    }
+    .tk_btn{
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    }
+    .tk_btn:hover{
+    opacity: 0.85;
+    }
+    
+    .login{
+        max-height:45px ;
+        min-width: 90px;
+    background-color:#DF3346 ;
+    border-radius: 10px;
+    padding: 0 5px;
+    }
+    .login:hover{
+    opacity: 0.85;
+    }
+    .login {
+    color: #FCFCFC;
+    text-decoration: none;
+    cursor: pointer;
+    }
+    .login i {
+    margin-left: 36px;
+    }
+    
+    .nav-container{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(0,#E6E6E6, #FFFFFF);
+    }
+    .nav-container a{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    opacity: 0.7;
+    margin-left: 10px;
+    }
+    .nav-container p{
+  
+    color:red;
+    font-size: 14px;
+    opacity: 0.7;
+    margin-left: 10px;
+    }
+    .nav-container li {
+    display: flex;
+    margin-left: 10px;
+    list-style: none;
+    }
+    .nav-container ul {
+    display: flex;
+    justify-content: flex-start;
+    transform: translateX(-30px);
+   
+    }
+    
+     /* Đăng nhập */
+    
+     #bd{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        }
+        .dn {
+            height: 320px;
+            width: 500px;
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                background-color: #FFFFFF;
+                border-radius: 20px ;
+             margin: auto;
+             position: relative;
+            
+            }
+            
+            .ip{
+                background-color: #FFFFFF
+             
+            
+            }
+            .username{
+            
+            font-size: 20px;
+               height: 40px;
+               width: 440px;
+                
+            }
+            .password{
+                font-size: 20px;
+                height: 40px;
+               width: 440px;
+            }
+            .btn-dn{
+                background-color: red;
+               color: #FFFFFF;
+               cursor: pointer;
+            }
+            #btn-close {
+            cursor: pointer;
+            position: absolute;
+            top:0;
+            right: 0;
+            background-color: #FFFFFF;
+            margin-top: 6px;
+            margin-right: 6px;
+            border: none;
+            }
+            .exit{
+            font-size: 25px;
+            color: #CECECE;
+            }
+            .exit:hover{
+            opacity: 0.7;
+            }
+            
+            #bd{ 
+            height: 100vh;
+            width: 100vw;
+            position: fixed;
+            background-color: rgb(0, 0, 0,0.3);
+            top:0;
+            left: 0;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            visibility: hidden;
+            }
+            #bd.show{
+            visibility: visible;}
+            
+            h1,p{
+            color: red;
+            }
+            a{
+            
+            text-decoration: none;}
+            
+            .dk{
+            position: absolute;
+            bottom: 0;
+            right: 130px;
+            
+            }
+        
+    /*      */
+    
+        /* footer */
+        .footer{
+            background-image: linear-gradient(0, #f17272, rgb(238, 77, 77));
+            height: 120px;
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+             display: flex;
+             justify-content: space-around;
+             }
+             
+               .footer ul li{
+               list-style: none;
+               color: #eee0e0;
+               }
+               .footer h1 {
+               color: #FFFFFF;
+               margin-left: 35px;
+               }
+               /*  */
+             
+              
+                .dn {
+                    height: 320px;
+                    width: 500px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        background-color: #FFFFFF;
+                        border-radius: 20px ;
+                     margin-top: 200px;
+                     
+                    
+                    }
+                    
+                    
+                    .btn-dn{
+                        background-color: red;
+                       color: #FFFFFF;
+                       cursor: pointer;
+                       margin-top: 50px;
+                    }
+                

@@ -1,0 +1,123 @@
+/* nav */
+html, body{
+margin: 0;
+}
+.nav{
+    width: 100%;
+    height: 45px;
+    background-color:#DC1D14 ;
+    position: fixed;
+    top:0;
+   
+    }
+    
+     @media only screen and (max-width:700px) {
+   
+     .tk_ip{
+     width: 40px;
+     }
+
+     
+     }
+    .nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    }
+    .nav ul li{
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    color: #FCFCFC;
+    }
+    
+    
+    .tk {
+    display: flex;
+    }
+    .tk_ip{
+    padding: 5px;
+    border-radius: 10px;
+    
+    }
+    .tk_btn{
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    }
+    .tk_btn:hover{
+    opacity: 0.85;
+    }
+    
+        
+        #cart{
+            max-height:45px ;
+            min-width: 75px;
+                background-color:#DF3346 ;
+                border-radius: 10px;
+                padding: 0 5px;
+                position: relative;
+               
+                }
+                
+        
+                #cart:hover{
+                opacity: 0.85;
+                }
+                #cart {
+                color: #FCFCFC;
+                text-decoration: none;
+                cursor: pointer;
+                }
+                #cart i {
+                margin-left: 25px;
+                }
+    .login{
+    min-width:90px;
+        max-height:45px ;
+    background-color:#DF3346 ;
+    border-radius: 10px;
+    color: #FCFCFC;
+    text-decoration: none;
+    cursor: pointer;
+   
+    }
+    .login i {
+        display: flex;  justify-content: center;align-items: center;
+    }
+    .login .fullname {
+        display: flex;  justify-content: center;align-items: center;
+    }
+    
+    .login:hover{
+    opacity: 0.85;
+    }
+  
+    .logout {
+       visibility: hidden;
+    
+    }
+   .name:hover .logout{
+   visibility: visible;
+   }
+   
+    /*  */
+    .nav-container p{
+        color:red;
+        font-size: 14px;
+        opacity: 0.7;
+        margin-left: 10px;
+        }
+        .nav-container li {
+        display: flex;
+        margin-left: 10px;
+        list-style: none;
+        }
+        .nav-container ul {
+        display: flex;
+        justify-content: flex-start;
+        transform: translateX(-30px);
+        transform:translateY(50px) ;
+        }
